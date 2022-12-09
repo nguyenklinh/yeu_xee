@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    <link rel="stylesheet" href="dangtin.css">
+    <link rel="stylesheet" type="text/css" href="trangchu.css">
+    <title>đăng tin</title>
+</head>
+
+<body>
+
+    <div style="background-color: rgb(226, 49, 49);" id="header">
+        <div class="head" id="logo">
+            <a class="tieude" href="trangchu2.html"><img src="img/logo.PNG" alt="logo"
+                    style="width:auto; height:70px"></a>
+        </div>
+        <div class="flag" id="chonmien">
+            <select style="width:120px; height: 30px;">
+                <option value="Miền Bắc">Miền Bắc</option>
+                <option value="Miền Nam">Miền Nam</option>
+                <option value="Miền Trung">Miền Trung</option>
+            </select>
+        </div>
+        <div id="banoto" style="font-size: 20px; font-weight: bold;">
+            <button style="background:cornflowerblue ;height: 30px;"><a class="tieude" href=""><i
+                        class="fa-solid fa-car"></i><span style="font-size:15px ;font-weight: bold;"> Đăng tin bán ô
+                        tô</span> </a></button>
+        </div>
+        <div class="head" id="login">
+            <button style="background:orange ;height: 30px;"><a class="tieude" href="dangnhap.html"><i
+                        class="fa-solid fa-right-to-bracket"></i><span style="font-size:15px ;font-weight: bold;;">Đăng
+                        nhập</span> </a></button>
+            <button style="background:orange ;height: 30px;"><a class="tieude" href="dangky.html"><i
+                        class="fa-solid fa-registered"></i><span style="font-size:15px ;font-weight: bold;">Đăng
+                        Ký</span> </a></button>
+        </div>
+    </div>
+    <div class="content">
+        <form action="">
+        <div class="upfile">
+            <h3>Ảnh / video sản phẩm</h3>
+            <div class="upimg">
+                <i class="imgsp fa-solid fa-image"></i>
+                <i class="plusimg fa-solid fa-plus"></i>
+            </div>
+            <div class="upvideo">
+                <i class="videosp fa-solid fa-video"></i>
+                <i class="plusvideo fa-solid fa-plus"></i>
+            </div>
+            
+        </div>
+        <div class="main-input">
+            <h3>Thông tin chi tiết</h3>
+            <input  type="text" placeholder="Hãng xe" />
+            <input  type="text" placeholder="Năm sản xuất" />
+            <h5>* Nhiên liệu</h5>
+            <ul  class="nhienlieu">
+                <li><input name="nhienlieu" type="radio" value="Xăng" />Xăng</li>
+                <li><input name="nhienlieu" type="radio" value="Dầu" />Dầu</li>
+                <li><input name="nhienlieu" type="radio" value="Điện" />Điện</li>
+                <li><input name="nhienlieu" type="radio" value="Khác" />Khác</li>
+            </ul>
+            <h5>* Tình trạng</h5>
+            <ul  class="tinhtrang">
+                <li><input class="moi" name="tinhtrang" type="radio" value="mới" />Mới </li>
+                <li><input class="cu" name="tinhtrang" type="radio" value="dasd" />Đã sử dụng</li>
+            </ul>
+            <ul>
+                <li><input class="modal hide" type="text" placeholder="Số km đã đi" /></li>
+                <li><input  type="text" placeholder="giá vnđ" /></li>
+            </ul>
+            <h3>Mô tả chi tiết</h3>
+            <textarea class="chitiet" inputmode="text" rows="9" cols="70" name="comment" placeholder="
+            - Tình trạng chiếc xe 
+            - Thời gian sử dụng xe
+            - Bảo trì xe: bao lâu/ lần, tại hãng hay không?
+            - Tình trạng giấy tờ..."></textarea>
+            <h5>*Về người bán.</h5>
+            <ul  class="nguoiban">
+                <li><input name="nguoiban" type="radio" value="cá nhân" />Cá Nhân </li>
+                <li><input name="nguoiban" type="radio" value="cửa hàng" />Cửa Hàng</li>
+            </ul>
+            <div class="diachi">
+                <div class="input__map">
+                    <h3>Địa chỉ</h3>
+                    <input  type="text" placeholder="Tỉnh, thành phố" />
+                    <input  type="text" placeholder="Quận, huyện" />
+                    <input  type="text" placeholder="Xã, Phường" />
+                    <input  type="text" placeholder="Nhập địa chỉ cụ thể" />
+                </div>
+            </div>
+            <div class="push_tin">
+             <button type="button">Đăng tin</button>
+            </div>
+        </div>
+    </form>
+    </div>
+</body>
+<script src="./js/dangtin.js"></script>
+</html>

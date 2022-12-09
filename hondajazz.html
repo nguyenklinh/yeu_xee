@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Honda Jazz</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="hondajazz.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw==" crossorigin="anonymous" referrerpolicy="no-referrer" />    <title>trang chu</title>
+    <link
+        rel="stylesheet"
+        type="text/css"
+        href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+      />
+</head>
+<body>
+    
+    <div id="header">
+        <div class="head" id="logohonda">
+                <a class="tieude" href="trangchu2.html"><img src="img/logo.PNG" alt="logo" style="width:auto; height:70px"></a>
+        </div>
+        <div class="flag" id="chonmien">
+            <select style="width:120px; height: 30px;">
+                    <option value="Miền Bắc">Miền Bắc</option>
+                    <option value="Miền Nam">Miền Nam</option>
+                    <option value="Miền Trung">Miền Trung</option>
+            </select>
+         </div>
+            <div id="banoto" style="font-size: 20px; font-weight: bold;">
+                <button style="background:cornflowerblue ;height: 30px;"><a class="tieude" href=""><i class="fa-solid fa-car"></i><span style="font-size:15px ;font-weight: bold;"> Đăng tin bán ô tô</span> </a></button>
+            </div>
+            <div class="head" id="login">
+                <button style="background:orange ;height: 30px;"><a class="tieude" href="dangnhap.html"><i class="fa-solid fa-right-to-bracket"></i><span style="font-size:15px ;font-weight: bold;;">Đăng nhập</span> </a></button>
+                <button style="background:orange ;height: 30px;"><a class="tieude" href="dangky.html"><i class="fa-solid fa-registered"></i><span style="font-size:15px ;font-weight: bold;">Đăng Ký</span> </a></button>
+            </div>
+    </div>
+        <div id="header_mid">
+            <div class="search" style="width: auto; height: auto;">
+                <input class="search_text" type="text" placeholder="Tìm Kiếm..." style="width: 400px; height: 45px;"><button class="search_button" style="width: 40px; height: 45px;"><i class="fa-solid fa-magnifying-glass"></i>
+            </div>
+            <div class="tindaluu">
+                <a class="tieude" href=""><i class="fa-solid fa-circle-plus"></i><span>Tin đã lưu</span></a>
+            </div>
+            <div class="xeyeuthich">
+                <a class="tieude" href=""><i class="fa-solid fa-heart"></i><span>Xe yêu thích</span> </a>
+            </div>
+            <div class="moigioi">
+                <span><a class="tieude" href="">Dành cho salon môi giới</a></span> 
+            </div>
+        </div>
+        <div id="header_menu">
+            <ul class="header-menuu">
+                <li class="li1">Giới thiệu</li>
+                <li class="dropdown">
+                   <a class="hoveraloaioto" href="#"> Loại ô tô</a> 
+                    <div class="dropdown-content">
+                        <a href="hondacity.html" >HONDA CITY</a>
+                        <a href="hondacivic.html">HONDA CIVIC</a>
+                        <a href="hondaCRV.html" >HONDA CRV</a>
+                        <a href="hondajazz.html">HONDA Jazz</a>
+                    </div>
+                </li>
+                <li class="li3">My Honda</li>
+                <li class="li4">Đóng góp xã hội</li>
+                <li class="li5">Lái xe an toàn</li>
+                <li class="li6">Motosports</li>
+                <li class="li7"><a class="li7" href="lienhe.html">Liên hệ</a></li>
+            </ul>
+        </div>
+        <div style="display:flex ; border: 5px;" >
+            <!-- cột 1 -->
+            <div id="cot1">
+                <div class="box_filter1">
+                    <img src="img/logo.PNG" alt="">
+            </div>
+                <div class="box_filter2">
+                    <div style="background-color: #21303f;color:white;height: 50px;"><h4 style="padding:15px" align="center">Lọc nhanh theo loại xe</h4></div>
+                    <div style="display:flex;">
+                        <a class="hangxe" href=""><img src="img/f.PNG" style="margin: 0px 10px 0px 0px;"><br><span style="margin-left: 14px;">SUV</span></a>
+                        <a class="hangxe" href=""><img src="img/1.PNG" style="margin: 0px 10px 0px 0px;"><br><span style="margin-left: 5px;">Sedan</span></a>
+                        <a class="hangxe" href=""><img src="img/2.PNG" style="margin: 0px 0px 0px 0px;"><br><span >Hactchback</span> </a>
+                    </div>
+                    <div style="display:flex;">
+                        <a class="hangxe" href=""><img src="img/3.PNG" style="margin: 0px 10px 0px 0px;"><br><span style="margin-left: 0px;">Xebántải</span></a>
+                        <a class="hangxe" href=""><img src="img/4.PNG" style="margin: 0px 20px 0px 0px;width: auto;height: 20x;"><br><span style="margin-left: 5px;">Xe tải</span></a>
+                        <a class="hangxe" href=""><img src="img/5.PNG" style="margin: 0px 0px 0px 0px;"><br><span >MPV</span> </a>
+                    </div>
+                    <div style="display:flex;">
+                        <a class="hangxe" href=""><img src="img/6.PNG" style="margin: 0px 10px 0px 0px;"><br><span>MiniVan</span></a>
+                        <a class="hangxe" href=""><img src="img/7.PNG" style="margin: 0px 0px 0px 0px;width: auto;height: 50px;"><br><span style="margin-left: 10px;">Coupe</span></a>
+                    </div>
+                </div>
+                <div class="box_filter3">
+                    <div style="margin:10px 0px 10px 20px ;font-weight: bold;">Bán</div>
+                    <div class="muaban"><a class="hangxe" href="">Đăng tin bán ô tô</a></div>
+                    <div class="muaban"><a class="hangxe" href="">Xe đang giao bán</a></div>
+                    <div class="muaban"><a class="hangxe" href="">Xe đã bán</a></div>
+                    <div class="muaban"><a class="hangxe" href="">Xe chờ duyệt</a></div>
+                    <div style="margin:10px 0px 10px 20px ;font-weight: bold;">Mua</div>
+                    <div class="muaban"><a class="hangxe" href="">Tìm bán xe đã lưu</a></div>
+                    <div class="muaban"><a class="hangxe" href="">Mua ô tô mới</a></div>
+                    <div class="muaban"><a class="hangxe" href="">Mua xe cũ</a></div>
+                    <div class="muaban"><a class="hangxe" href="">Tìm kiếm đại lý</a></div>
+                    <div class="muaban"><a class="hangxe" href="">Xe yêu thích</a></div>
+                    <div class="muaban"><a class="hangxe" href="">Đã xem gần đây</a></div>
+                </div>
+            </div>
+                <!-- cột 2 -->
+            <div id="cot2"class="image-slider">
+                <div  class="slide" style="width: 1100px;height: auto;">
+                    <div class="image-oto">
+                        <img style="width:1100px;height: 525.64px;" src="https://storage.googleapis.com/f1-cms/2020/10/9d1fc943-20201027_075756.jpg" alt="">
+                    </div>
+                    <div class="image">
+                        <img style="width:1100px;height: 525.64px;" src="img/honda2.jpg" alt="">
+                    </div>   
+                    <div class="image">
+                        <img style="width:1100px;height: 525.64px;" src="img/honda3.jpg" alt="">
+                    </div>         
+                    <div class="image">
+                        <img style="width:1100px;height: 525.64px;" src="img/honda4.jpg" alt="">
+                    </div>  
+                </div>
+                <div><h2>Các Mẫu Xe HONDA JAZZ</h2></div>
+                <!-- sản phẩm -->
+                <div class="hoversanpham" id="sanpham">
+                    <div class="formsanpham">
+                        <a href="chitietsanpham.html" target="_self" ><img class="sanpham" src="https://bonbanh.com/uploads/users/545458/car/4506033/s_1658980390.529.jpg" alt=""></a>
+                        <div class="thongtin">
+                            <a class="linksanpham" style="font-size: 23px; font-weight: bold;" href="chitietsanpham.html" target="_self" >Honda Jazz RS - 2019</a> 
+                            <p>
+                                <i class="fa-solid fa-car"></i> <b style="margin:0px 50px 0px 0px ;">Mới</b> 
+                                <span><i class="fa-solid fa-calendar-days"></i> <b style="margin:0px 50px 0px 0px ;">2019</b></span>
+                                <span><i class="i class= fa-solid fa-gas-pump"></i>  <b style="margin:0px 50px 0px 0px ;"> Xăng</b></span>
+                                <span><i class="fa-solid fa-car"></i> Số tự động</span>
+                            </p>
+                            <div class="hoverchum">
+                                <button class="btnsdt" style="width:180px;height: 30px;"><b >xem số điện thoại</b></button>
+                                <b class="hoveryeuthich" style="margin-left:30px ;"> <i class="fa-solid fa-heart"></i> Yêu thích</b>
+                                <b class="hoverluutin" style="margin-left:50px ;"><i class="fa-solid fa-bookmark"></i> Lưu tin</b>
+                            </div>
+                        </div>
+                        <div class="giatien">
+                            <b style="color:#f1632b ; font-size:  23px; margin-left: 40px;">530 Triệu</b>
+
+                            <br><span><i style="margin:15px 0px 0px 15px ;margin-left: 50px;" class="fa-solid fa-location-pin"></i> <b>Hà Nội</b></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- end -->
+                <!-- sản phẩm -->
+                <div class="hoversanpham" id="sanpham">
+                    <div class="formsanpham">
+                        <a href="chitietsanpham.html" target="_self" ><img class="sanpham" src="https://bonbanh.com/uploads/users/329142/car/4496568/s_1658473875.824.jpeg" alt=""></a>
+                        <div class="thongtin">
+                            <a class="linksanpham" style="font-size: 23px; font-weight: bold;" href="chitietsanpham.html" target="_self" >Honda Jazz VX - 2018</a> 
+                            <p>
+                                <i class="fa-solid fa-car"></i> <b style="margin:0px 50px 0px 0px ;">Mới</b> 
+                                <span><i class="fa-solid fa-calendar-days"></i> <b style="margin:0px 50px 0px 0px ;">2018</b></span>
+                                <span><i class="i class= fa-solid fa-gas-pump"></i>  <b style="margin:0px 50px 0px 0px ;"> Xăng</b></span>
+                                <span><i class="fa-solid fa-car"></i> Số tự động</span>
+                            </p>
+                            <div class="hoverchum">
+                                <button class="btnsdt" style="width:180px;height: 30px;"><b >xem số điện thoại</b></button>
+                                <b class="hoveryeuthich" style="margin-left:30px ;"> <i class="fa-solid fa-heart"></i> Yêu thích</b>
+                                <b class="hoverluutin" style="margin-left:50px ;"><i class="fa-solid fa-bookmark"></i> Lưu tin</b>
+                            </div>
+                        </div>
+                        <div class="giatien">
+                            <b style="color:#f1632b ; font-size:  23px; margin-left: 40px;">459 Triệu</b>
+
+                            <br><span><i style="margin:15px 0px 0px 15px ;margin-left: 50px;" class="fa-solid fa-location-pin"></i> <b>Hà Nội</b></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- end -->
+                <!-- sản phẩm -->
+                <div class="hoversanpham" id="sanpham">
+                    <div class="formsanpham">
+                        <a href="chitietsanpham.html" target="_self" ><img class="sanpham" src="https://bonbanh.com/uploads/users/381836/car/4282009/s_1647398904.281.jpg" alt=""></a>
+                        <div class="thongtin">
+                            <a class="linksanpham" style="font-size: 23px; font-weight: bold;" href="chitietsanpham.html" target="_self" >Honda Jazz RS - 2018</a> 
+                            <p>
+                                <i class="fa-solid fa-car"></i> <b style="margin:0px 50px 0px 0px ;">Mới</b> 
+                                <span><i class="fa-solid fa-calendar-days"></i> <b style="margin:0px 50px 0px 0px ;">2018</b></span>
+                                <span><i class="i class= fa-solid fa-gas-pump"></i>  <b style="margin:0px 50px 0px 0px ;"> Xăng</b></span>
+                                <span><i class="fa-solid fa-car"></i> Số tự động</span>
+                            </p>
+                            <div class="hoverchum">
+                                <button class="btnsdt" style="width:180px;height: 30px;"><b >xem số điện thoại</b></button>
+                                <b class="hoveryeuthich" style="margin-left:30px ;"> <i class="fa-solid fa-heart"></i> Yêu thích</b>
+                                <b class="hoverluutin" style="margin-left:50px ;"><i class="fa-solid fa-bookmark"></i> Lưu tin</b>
+                            </div>
+                        </div>
+                        <div class="giatien">
+                            <b style="color:#f1632b ; font-size:  23px; margin-left: 40px;">568 Triệu</b>
+
+                            <br><span><i style="margin:15px 0px 0px 15px ;margin-left: 50px;" class="fa-solid fa-location-pin"></i> <b>Thái Nguyên</b></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- end -->
+                 <!-- sản phẩm -->
+                 <div class="hoversanpham" id="sanpham">
+                    <div class="formsanpham">
+                        <a href="chitietsanpham.html" target="_self" ><img class="sanpham" src="https://bonbanh.com/uploads/users/641582/car/4501044/s_1658731798.827.jpg" alt=""></a>
+                        <div class="thongtin">
+                            <a class="linksanpham" style="font-size: 23px; font-weight: bold;" href="chitietsanpham.html" target="_self" >Honda Jazz V - 2018</a> 
+                            <p>
+                                <i class="fa-solid fa-car"></i> <b style="margin:0px 50px 0px 0px ;">Mới</b> 
+                                <span><i class="fa-solid fa-calendar-days"></i> <b style="margin:0px 50px 0px 0px ;">2018</b></span>
+                                <span><i class="i class= fa-solid fa-gas-pump"></i>  <b style="margin:0px 50px 0px 0px ;"> Xăng</b></span>
+                                <span><i class="fa-solid fa-car"></i> Số tự động</span>
+                            </p>
+                            <div class="hoverchum">
+                                <button class="btnsdt" style="width:180px;height: 30px;"><b >xem số điện thoại</b></button>
+                                <b class="hoveryeuthich" style="margin-left:30px ;"> <i class="fa-solid fa-heart"></i> Yêu thích</b>
+                                <b class="hoverluutin" style="margin-left:50px ;"><i class="fa-solid fa-bookmark"></i> Lưu tin</b>
+                            </div>
+                        </div>
+                        <div class="giatien">
+                            <b style="color:#f1632b ; font-size:  23px; margin-left: 40px;">414 Triệu</b>
+
+                            <br><span><i style="margin:15px 0px 0px 15px ;margin-left: 50px;" class="fa-solid fa-location-pin"></i> <b>Đồng Nai</b></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- end -->
+                 <!-- sản phẩm -->
+                 <div class="hoversanpham" id="sanpham">
+                    <div class="formsanpham">
+                        <a href="chitietsanpham.html" target="_self" ><img class="sanpham" src="https://bonbanh.com/uploads/users/74362/car/4307198/s_1648633536.320.jpg" alt=""></a>
+                        <div class="thongtin">
+                            <a class="linksanpham" style="font-size: 23px; font-weight: bold;" href="chitietsanpham.html" target="_self" >Honda Jazz RS - 2018</a> 
+                            <p>
+                                <i class="fa-solid fa-car"></i> <b style="margin:0px 50px 0px 0px ;">Mới</b> 
+                                <span><i class="fa-solid fa-calendar-days"></i> <b style="margin:0px 50px 0px 0px ;">2018</b></span>
+                                <span><i class="i class= fa-solid fa-gas-pump"></i>  <b style="margin:0px 50px 0px 0px ;"> Xăng</b></span>
+                                <span><i class="fa-solid fa-car"></i> Số tự động</span>
+                            </p>
+                            <div class="hoverchum">
+                                <button class="btnsdt" style="width:180px;height: 30px;"><b >xem số điện thoại</b></button>
+                                <b class="hoveryeuthich" style="margin-left:30px ;"> <i class="fa-solid fa-heart"></i> Yêu thích</b>
+                                <b class="hoverluutin" style="margin-left:50px ;"><i class="fa-solid fa-bookmark"></i> Lưu tin</b>
+                            </div>
+                        </div>
+                        <div class="giatien">
+                            <b style="color:#f1632b ; font-size:  23px; margin-left: 40px;">435 Triệu</b>
+
+                            <br><span><i style="margin:15px 0px 0px 15px ;margin-left: 50px;" class="fa-solid fa-location-pin"></i> <b>Hà Nội</b></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- end -->
+                <!-- sản phẩm -->
+                <div class="hoversanpham" id="sanpham">
+                    <div class="formsanpham">
+                        <a href="chitietsanpham.html" target="_self" ><img class="sanpham" src="https://bonbanh.com/uploads/users/629097/car/4483829/s_1657801311.165.jpeg" alt=""></a>
+                        <div class="thongtin">
+                            <a class="linksanpham" style="font-size: 23px; font-weight: bold;" href="chitietsanpham.html" target="_self" >Honda Jazz RS - 2018</a> 
+                            <p>
+                                <i class="fa-solid fa-car"></i> <b style="margin:0px 50px 0px 0px ;">Mới</b> 
+                                <span><i class="fa-solid fa-calendar-days"></i> <b style="margin:0px 50px 0px 0px ;">2018</b></span>
+                                <span><i class="i class= fa-solid fa-gas-pump"></i>  <b style="margin:0px 50px 0px 0px ;"> Xăng</b></span>
+                                <span><i class="fa-solid fa-car"></i> Số tự động</span>
+                            </p>
+                            <div class="hoverchum">
+                                <button class="btnsdt" style="width:180px;height: 30px;"><b >xem số điện thoại</b></button>
+                                <b class="hoveryeuthich" style="margin-left:30px ;"> <i class="fa-solid fa-heart"></i> Yêu thích</b>
+                                <b class="hoverluutin" style="margin-left:50px ;"><i class="fa-solid fa-bookmark"></i> Lưu tin</b>
+                            </div>
+                        </div>
+                        <div class="giatien">
+                            <b style="color:#f1632b ; font-size:  23px; margin-left: 40px;">468 Triệu</b>
+
+                            <br><span><i style="margin:15px 0px 0px 15px ;margin-left: 50px;" class="fa-solid fa-location-pin"></i> <b>TP HCM</b></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- end -->
+                <!-- sản phẩm -->
+                <div class="hoversanpham" id="sanpham">
+                    <div class="formsanpham">
+                        <a href="chitietsanpham.html" target="_self" ><img class="sanpham" src="https://bonbanh.com/uploads/users/106443/car/4469703/s_1657076990.625.jpeg" alt=""></a>
+                        <div class="thongtin">
+                            <a class="linksanpham" style="font-size: 23px; font-weight: bold;" href="chitietsanpham.html" target="_self" >Honda Jazz RS - 2018</a> 
+                            <p>
+                                <i class="fa-solid fa-car"></i> <b style="margin:0px 50px 0px 0px ;">Mới</b> 
+                                <span><i class="fa-solid fa-calendar-days"></i> <b style="margin:0px 50px 0px 0px ;">2018</b></span>
+                                <span><i class="i class= fa-solid fa-gas-pump"></i>  <b style="margin:0px 50px 0px 0px ;"> Xăng</b></span>
+                                <span><i class="fa-solid fa-car"></i> Số tự động</span>
+                            </p>
+                            <div class="hoverchum">
+                                <button class="btnsdt" style="width:180px;height: 30px;"><b >xem số điện thoại</b></button>
+                                <b class="hoveryeuthich" style="margin-left:30px ;"> <i class="fa-solid fa-heart"></i> Yêu thích</b>
+                                <b class="hoverluutin" style="margin-left:50px ;"><i class="fa-solid fa-bookmark"></i> Lưu tin</b>
+                            </div>
+                        </div>
+                        <div class="giatien">
+                            <b style="color:#f1632b ; font-size:  23px; margin-left: 40px;">480 Triệu</b>
+
+                            <br><span><i style="margin:15px 0px 0px 15px ;margin-left: 50px;" class="fa-solid fa-location-pin"></i> <b>Lạng Sơn</b></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- end -->
+                 <!-- sản phẩm -->
+                 <div class="hoversanpham" id="sanpham">
+                    <div class="formsanpham">
+                        <a href="chitietsanpham.html" target="_self" ><img class="sanpham" src="https://bonbanh.com/uploads/users/644652/car/4322945/s_1649405845.415.jpg" alt=""></a>
+                        <div class="thongtin">
+                            <a class="linksanpham" style="font-size: 23px; font-weight: bold;" href="chitietsanpham.html" target="_self" >Xe Honda Jazz RS 2018</a> 
+                            <p>
+                                <i class="fa-solid fa-car"></i> <b style="margin:0px 50px 0px 0px ;">Mới</b> 
+                                <span><i class="fa-solid fa-calendar-days"></i> <b style="margin:0px 50px 0px 0px ;">2018</b></span>
+                                <span><i class="i class= fa-solid fa-gas-pump"></i>  <b style="margin:0px 50px 0px 0px ;"> Xăng</b></span>
+                                <span><i class="fa-solid fa-car"></i> Số tự động</span>
+                            </p>
+                            <div class="hoverchum">
+                                <button class="btnsdt" style="width:180px;height: 30px;"><b >xem số điện thoại</b></button>
+                                <b class="hoveryeuthich" style="margin-left:30px ;"> <i class="fa-solid fa-heart"></i> Yêu thích</b>
+                                <b class="hoverluutin" style="margin-left:50px ;"><i class="fa-solid fa-bookmark"></i> Lưu tin</b>
+                            </div>
+                        </div>
+                        <div class="giatien">
+                            <b style="color:#f1632b ; font-size:  23px; margin-left: 40px;">470 Triệu</b>
+
+                            <br><span><i style="margin:15px 0px 0px 15px ;margin-left: 50px;" class="fa-solid fa-location-pin"></i> <b>TP HCM</b></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- end -->
+                <!-- sản phẩm -->
+                <div class="hoversanpham" id="sanpham">
+                    <div class="formsanpham">
+                        <a href="chitietsanpham.html" target="_self" ><img class="sanpham" src="https://bonbanh.com/uploads/users/172444/car/4480349/s_1657623808.680.jpeg" alt=""></a>
+                        <div class="thongtin">
+                            <a class="linksanpham" style="font-size: 23px; font-weight: bold;" href="chitietsanpham.html" target="_self" >Xe Honda Jazz VX 2018</a> 
+                            <p>
+                                <i class="fa-solid fa-car"></i> <b style="margin:0px 50px 0px 0px ;">Mới</b> 
+                                <span><i class="fa-solid fa-calendar-days"></i> <b style="margin:0px 50px 0px 0px ;">2018</b></span>
+                                <span><i class="i class= fa-solid fa-gas-pump"></i>  <b style="margin:0px 50px 0px 0px ;"> Xăng</b></span>
+                                <span><i class="fa-solid fa-car"></i> Số tự động</span>
+                            </p>
+                            <div class="hoverchum">
+                                <button class="btnsdt" style="width:180px;height: 30px;"><b >xem số điện thoại</b></button>
+                                <b class="hoveryeuthich" style="margin-left:30px ;"> <i class="fa-solid fa-heart"></i> Yêu thích</b>
+                                <b class="hoverluutin" style="margin-left:50px ;"><i class="fa-solid fa-bookmark"></i> Lưu tin</b>
+                            </div>
+                        </div>
+                        <div class="giatien">
+                            <b style="color:#f1632b ; font-size:  23px; margin-left: 40px;">459 Triệu</b>
+
+                            <br><span><i style="margin:15px 0px 0px 15px ;margin-left: 50px;" class="fa-solid fa-location-pin"></i> <b>Hà Nội</b></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- end -->
+                <!-- sản phẩm -->
+                <div class="hoversanpham" id="sanpham">
+                    <div class="formsanpham">
+                        <a href="chitietsanpham.html" target="_self" ><img class="sanpham" src="https://bonbanh.com/uploads/users/638352/car/4457147/s_1656389082.555.jpg" alt=""></a>
+                        <div class="thongtin">
+                            <a class="linksanpham" style="font-size: 23px; font-weight: bold;" href="chitietsanpham.html" target="_self" >Xe Honda Jazz V 2016</a> 
+                            <p>
+                                <i class="fa-solid fa-car"></i> <b style="margin:0px 50px 0px 0px ;">Mới</b> 
+                                <span><i class="fa-solid fa-calendar-days"></i> <b style="margin:0px 50px 0px 0px ;">2016</b></span>
+                                <span><i class="i class= fa-solid fa-gas-pump"></i>  <b style="margin:0px 50px 0px 0px ;"> Xăng</b></span>
+                                <span><i class="fa-solid fa-car"></i> Số tự động</span>
+                            </p>
+                            <div class="hoverchum">
+                                <button class="btnsdt" style="width:180px;height: 30px;"><b >xem số điện thoại</b></button>
+                                <b class="hoveryeuthich" style="margin-left:30px ;"> <i class="fa-solid fa-heart"></i> Yêu thích</b>
+                                <b class="hoverluutin" style="margin-left:50px ;"><i class="fa-solid fa-bookmark"></i> Lưu tin</b>
+                            </div>
+                        </div>
+                        <div class="giatien">
+                            <b style="color:#f1632b ; font-size:  23px; margin-left: 40px;">450 Triệu</b>
+
+                            <br><span><i style="margin:15px 0px 0px 15px ;margin-left: 50px;" class="fa-solid fa-location-pin"></i> <b>Hà Nội</b></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- end -->
+                <!-- sản phẩm -->
+                <div class="hoversanpham" id="sanpham">
+                    <div class="formsanpham">
+                        <a href="chitietsanpham.html" target="_self" ><img class="sanpham" src="https://bonbanh.com/uploads/users/85588/car/4447333/s_1655871444.117.jpeg" alt=""></a>
+                        <div class="thongtin">
+                            <a class="linksanpham" style="font-size: 23px; font-weight: bold;" href="chitietsanpham.html" target="_self" >Xe Honda Jazz V 2018</a> 
+                            <p>
+                                <i class="fa-solid fa-car"></i> <b style="margin:0px 50px 0px 0px ;">Mới</b> 
+                                <span><i class="fa-solid fa-calendar-days"></i> <b style="margin:0px 50px 0px 0px ;">2018</b></span>
+                                <span><i class="i class= fa-solid fa-gas-pump"></i>  <b style="margin:0px 50px 0px 0px ;"> Xăng</b></span>
+                                <span><i class="fa-solid fa-car"></i> Số tự động</span>
+                            </p>
+                            <div class="hoverchum">
+                                <button class="btnsdt" style="width:180px;height: 30px;"><b >xem số điện thoại</b></button>
+                                <b class="hoveryeuthich" style="margin-left:30px ;"> <i class="fa-solid fa-heart"></i> Yêu thích</b>
+                                <b class="hoverluutin" style="margin-left:50px ;"><i class="fa-solid fa-bookmark"></i> Lưu tin</b>
+                            </div>
+                        </div>
+                        <div class="giatien">
+                            <b style="color:#f1632b ; font-size:  23px; margin-left: 40px;">450 Triệu</b>
+
+                            <br><span><i style="margin:15px 0px 0px 15px ;margin-left: 50px;" class="fa-solid fa-location-pin"></i> <b>Bình Định</b></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- end -->
+                 <!-- sản phẩm -->
+                 <div class="hoversanpham" id="sanpham">
+                    <div class="formsanpham">
+                        <a href="chitietsanpham.html" target="_self" ><img class="sanpham" src="https://bonbanh.com/uploads/users/545458/car/4308380/s_1648699771.115.jpg" alt=""></a>
+                        <div class="thongtin">
+                            <a class="linksanpham" style="font-size: 23px; font-weight: bold;" href="chitietsanpham.html" target="_self" >Xe Honda Jazz RS 2018</a> 
+                            <p>
+                                <i class="fa-solid fa-car"></i> <b style="margin:0px 50px 0px 0px ;">Mới</b> 
+                                <span><i class="fa-solid fa-calendar-days"></i> <b style="margin:0px 50px 0px 0px ;">2018</b></span>
+                                <span><i class="i class= fa-solid fa-gas-pump"></i>  <b style="margin:0px 50px 0px 0px ;"> Xăng</b></span>
+                                <span><i class="fa-solid fa-car"></i> Số tự động</span>
+                            </p>
+                            <div class="hoverchum">
+                                <button class="btnsdt" style="width:180px;height: 30px;"><b >xem số điện thoại</b></button>
+                                <b class="hoveryeuthich" style="margin-left:30px ;"> <i class="fa-solid fa-heart"></i> Yêu thích</b>
+                                <b class="hoverluutin" style="margin-left:50px ;"><i class="fa-solid fa-bookmark"></i> Lưu tin</b>
+                            </div>
+                        </div>
+                        <div class="giatien">
+                            <b style="color:#f1632b ; font-size:  23px; margin-left: 40px;">700 Triệu</b>
+
+                            <br><span><i style="margin:15px 0px 0px 15px ;margin-left: 50px;" class="fa-solid fa-location-pin"></i> <b>Cần Thơ</b></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- end -->
+                <!-- sản phẩm -->
+                <div class="hoversanpham" id="sanpham">
+                    <div class="formsanpham">
+                        <a href="chitietsanpham.html" target="_self" ><img class="sanpham" src="https://bonbanh.com/uploads/users/545458/car/4506033/s_1658980394.697.jpg" alt=""></a>
+                        <div class="thongtin">
+                            <a class="linksanpham" style="font-size: 23px; font-weight: bold;" href="chitietsanpham.html" target="_self" >Xe Honda Jazz VX 2018</a> 
+                            <p>
+                                <i class="fa-solid fa-car"></i> <b style="margin:0px 50px 0px 0px ;">Mới</b> 
+                                <span><i class="fa-solid fa-calendar-days"></i> <b style="margin:0px 50px 0px 0px ;">2018</b></span>
+                                <span><i class="i class= fa-solid fa-gas-pump"></i>  <b style="margin:0px 50px 0px 0px ;"> Xăng</b></span>
+                                <span><i class="fa-solid fa-car"></i> Số tự động</span>
+                            </p>
+                            <div class="hoverchum">
+                                <button class="btnsdt" style="width:180px;height: 30px;"><b >xem số điện thoại</b></button>
+                                <b class="hoveryeuthich" style="margin-left:30px ;"> <i class="fa-solid fa-heart"></i> Yêu thích</b>
+                                <b class="hoverluutin" style="margin-left:50px ;"><i class="fa-solid fa-bookmark"></i> Lưu tin</b>
+                            </div>
+                        </div>
+                        <div class="giatien">
+                            <b style="color:#f1632b ; font-size:  23px; margin-left: 40px;">500 Triệu</b>
+
+                            <br><span><i style="margin:15px 0px 0px 15px ;margin-left: 50px;" class="fa-solid fa-location-pin"></i> <b>Cần Thơ</b></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- end -->
+                <!-- sản phẩm -->
+                <div class="hoversanpham" id="sanpham">
+                    <div class="formsanpham">
+                        <a href="chitietsanpham.html" target="_self" ><img class="sanpham" src="https://bonbanh.com/uploads/users/9758/car/4353128/s_1650967286.684.jpg" alt=""></a>
+                        <div class="thongtin">
+                            <a class="linksanpham" style="font-size: 23px; font-weight: bold;" href="chitietsanpham.html" target="_self" >Xe Honda Jazz RS 2019</a> 
+                            <p>
+                                <i class="fa-solid fa-car"></i> <b style="margin:0px 50px 0px 0px ;">Mới</b> 
+                                <span><i class="fa-solid fa-calendar-days"></i> <b style="margin:0px 50px 0px 0px ;">2019</b></span>
+                                <span><i class="i class= fa-solid fa-gas-pump"></i>  <b style="margin:0px 50px 0px 0px ;"> Xăng</b></span>
+                                <span><i class="fa-solid fa-car"></i> Số tự động</span>
+                            </p>
+                            <div class="hoverchum">
+                                <button class="btnsdt" style="width:180px;height: 30px;"><b >xem số điện thoại</b></button>
+                                <b class="hoveryeuthich" style="margin-left:30px ;"> <i class="fa-solid fa-heart"></i> Yêu thích</b>
+                                <b class="hoverluutin" style="margin-left:50px ;"><i class="fa-solid fa-bookmark"></i> Lưu tin</b>
+                            </div>
+                        </div>
+                        <div class="giatien">
+                            <b style="color:#f1632b ; font-size:  23px; margin-left: 40px;">559 Triệu</b>
+
+                            <br><span><i style="margin:15px 0px 0px 15px ;margin-left: 50px;" class="fa-solid fa-location-pin"></i> <b>Hà Nội</b></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- end -->
+                <!-- sản phẩm -->
+                <div class="hoversanpham" id="sanpham">
+                    <div class="formsanpham">
+                        <a href="chitietsanpham.html" target="_self" ><img class="sanpham" src="https://bonbanh.com/uploads/users/545458/car/4506033/s_1658980400.742.jpg" alt=""></a>
+                        <div class="thongtin">
+                            <a class="linksanpham" style="font-size: 23px; font-weight: bold;" href="chitietsanpham.html" target="_self" >Xe Honda Jazz v 2020</a> 
+                            <p>
+                                <i class="fa-solid fa-car"></i> <b style="margin:0px 50px 0px 0px ;">Mới</b> 
+                                <span><i class="fa-solid fa-calendar-days"></i> <b style="margin:0px 50px 0px 0px ;">2020</b></span>
+                                <span><i class="i class= fa-solid fa-gas-pump"></i>  <b style="margin:0px 50px 0px 0px ;"> Xăng</b></span>
+                                <span><i class="fa-solid fa-car"></i> Số tự động</span>
+                            </p>
+                            <div class="hoverchum">
+                                <button class="btnsdt" style="width:180px;height: 30px;"><b >xem số điện thoại</b></button>
+                                <b class="hoveryeuthich" style="margin-left:30px ;"> <i class="fa-solid fa-heart"></i> Yêu thích</b>
+                                <b class="hoverluutin" style="margin-left:50px ;"><i class="fa-solid fa-bookmark"></i> Lưu tin</b>
+                            </div>
+                        </div>
+                        <div class="giatien">
+                            <b style="color:#f1632b ; font-size:  23px; margin-left: 40px;">698 Triệu</b>
+
+                            <br><span><i style="margin:15px 0px 0px 15px ;margin-left: 50px;" class="fa-solid fa-location-pin"></i> <b>TP HCM</b></span>
+                        </div>
+                    </div>
+                </div>
+                <!-- end -->
+
+
+                  <!-- phần hạn chót của sản phẩm -->  
+            </div>
+        </div>
+        <div style="margin:30px 0px 30px 790px ;">
+            <button><h3 style="width:300px"> + XEM THÊM Ô TÔ BẢN GẤP</h3></button>
+        </div>
+        <div>
+            <h1 style="margin-left:550px ;"> Xem xe theo tỉnh thành</h1>
+        </div>
+        <div>
+            <div class="tinhthanh">
+                <span class="diachi1"><i class="fa-solid fa-location-dot"></i><a class="hoverdiachi" href=""> Hồ Chí Minh (3242)</a></span>
+                <span class="diachi1"><i class="fa-solid fa-location-dot"></i><a class="hoverdiachi" href=""> Hà Nội (2297)</a></span>
+                <span class="diachi1"><i class="fa-solid fa-location-dot"></i><a class="hoverdiachi" href=""> Bình Dương (308)</a></span>
+                <span class="diachi1"><i class="fa-solid fa-location-dot"></i><a class="hoverdiachi" href=""> Đồng Nai (174)</a></span>
+            </div>
+            <div class="tinhthanh"> 
+                <span class="diachi2"><i class="fa-solid fa-location-dot"></i><a class="hoverdiachi" href=""> Bà Rịa Vũng Tàu (130)</a></span>
+                <span class="diachi2" style="margin:0px 46px 0px 6px ;"><i class="fa-solid fa-location-dot"></i><a class="hoverdiachi" href=""> Đà Nẵng (108)</a></span>
+                <span class="diachi2" style="margin-right:11px ;"><i class="fa-solid fa-location-dot"></i><a class="hoverdiachi" href=""> Cần Thơ (89)</a></span>
+                <span class="diachi2" style="margin-left: 73px;"><i class="fa-solid fa-location-dot"></i><a class="hoverdiachi" href=""> Nghệ An (82)</a></span>
+            </div>
+            <div class="tinhthanh">
+                <span class="diachi3"><i class="fa-solid fa-location-dot"></i><a class="hoverdiachi" href=""> Hải Phòng (78)</a></span>
+                <span class="diachi3" style="margin:0px 60px 0px -7px ;"><i class="fa-solid fa-location-dot"></i><a class="hoverdiachi" href=""> Long An (67)</a></span>
+                <span class="diachi3" style="margin:0px 61px 0px 0px ;"><i class="fa-solid fa-location-dot"></i><a class="hoverdiachi" href=""> Quảng Ninh (59)</a></span>
+                <span class="diachi3"><i class="fa-solid fa-location-dot"></i><a class="hoverdiachi" href=""> Tiền Giang (59)</a></span>
+            </div>
+            <div class="tinhthanh">
+                <span class="diachi4"><i class="fa-solid fa-location-dot"></i><a class="hoverdiachi" href=""> Bắc Ninh (48)</a></span>
+                <span class="diachi4" style="margin: 0px 60px 0px -10px;"><i class="fa-solid fa-location-dot"></i><a class="hoverdiachi" href=""> Tây Linh (48)</a></span>
+                <span class="diachi4" style="margin:0px 65px 0px 0px"><i class="fa-solid fa-location-dot"></i><a class="hoverdiachi" href=""> Hải Dương (46)</a></span>
+                <span class="diachi4"><i class="fa-solid fa-location-dot"></i><a class="hoverdiachi" href=""> Khánh Hòa (44)</a></span>
+            </div>
+        </div>
+        <div class="tieudetrang">
+            <div class="title-whitle">
+                <span >NGƯỜI BÁN Ô TÔ NỔI BẬT</span>
+            </div>
+        </div>
+        <div style="display: flex;">
+            <div class="txt-footer">
+                <span >
+                    © 2005-2017 by yeuxe.com. All rights reserved.<br>
+                Công Ty Cổ Phần Ô Tô ; Mã số thuế: 0379818322 <br>
+                ngách 152/32 ngõ 152 đường quyết thắng <br>
+                Tel: 034.345.2452 - Email: cskh@gmail.com <br>
+                Liên kết: <a class="hoverlinknuochoa" href="">Nước hoa dành cho ô tô</a><a class="hoverlinknuochoa"
+                    href="">| xe máy |</a><a class="hoverlinknuochoa" href="">xe đạp</a>
+                </span>
+            </div>
+            <div>
+                <div class="list" >
+                    <a class="list" href="">Giới thiệu  </a> <a class="list" href="">| Quy chế hoạt động | </a> <a class="list" href="">Báo giá</a>
+                </div>
+                <div class="hotline">
+                   <span style="font-size:22px">Hotline:</span> <a class="list2" href=""> 034.345.2452</a> 
+                </div>
+            </div>
+        </div>
+        <script
+          type="text/javascript"
+          src="https://code.jquery.com/jquery-1.11.0.min.js"
+        ></script>
+        <script
+          type="text/javascript"
+          src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+        ></script>
+        <script
+          type="text/javascript"
+          src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+        ></script>
+        <script src="slide.js"></script>
+</body>
+</html>

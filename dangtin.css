@@ -1,0 +1,110 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.content{
+    padding-top: 50px;
+    width: 70%;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.content .main-input h3{
+    padding:10px 0;
+    font-size: 1.125rem;
+    font-weight: 700;
+    color: #222;
+}
+.content .upfile{
+    padding: 10px 10px;
+    border: 1px solid rgb(255, 123, 0);
+    background-color: rgb(255, 255, 255);
+    width: 32%;
+    position: absolute;
+    left: 0;
+}
+.content .upfile .upvideo,
+.content .upfile .upimg{
+    position: relative;
+    margin: 15px 0;
+    border:1px solid rgb(255, 123, 0);
+    height: 150px;
+    background-color: #ccc;
+    cursor: pointer;
+}
+
+.content .upfile .upvideo .videosp,
+.content .upfile .upimg .imgsp{
+    font-size: 40px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.content .upfile .upvideo .plusvideo,
+.content .upfile .upimg .plusimg{
+    position: absolute;
+    top: 25%;
+    left: 60%;
+}
+
+.content .main-input{
+    border: 1px solid rgb(255, 123, 0);
+    background-color: white;
+    padding-left: 20px;
+    width: 67%;
+    position: absolute;
+    right: 0;
+}
+.content .main-input .chitiet,
+.content .main-input input{
+    width: 90%;
+    margin-top: 10px;
+    padding: 10px 10px;
+    border: 2px solid chocolate; 
+    border-radius: 10px;
+}
+
+.content .main-input h5{
+    padding-top: 10px;
+}
+.content .main-input .nguoiban,
+.content .main-input .nhienlieu,
+.content .main-input .tinhtrang
+{
+    display: flex;
+    font-size: 20px;
+}
+.content .main-input .nguoiban li,
+.content .main-input .tinhtrang li,
+.content .main-input .nhienlieu li{
+    padding: 10px 10px;
+}
+.push_tin button:hover,
+.content .main-input .nguoiban input:hover,
+.content .main-input .nhienlieu input:hover,
+.content .main-input .tinhtrang input:hover{
+    cursor: pointer;
+}
+.push_tin{
+    text-align: center;
+    padding: 20px 0;
+}
+.push_tin button{
+    width: 100px;
+    padding: 10px 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    background-color: rgb(255, 123, 0);
+    color: white;
+}
+.hide{
+    display: none;
+}

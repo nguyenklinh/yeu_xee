@@ -1,0 +1,171 @@
+*{
+    /* box-sizing: border-box; */
+    font-family:'Noto Sans',sans-serif;
+}
+body{
+    font-family:'Noto Sans',sans-serif;
+    padding: 0;
+    margin: 0;
+    background-color: #dce5e8;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+div{
+    border: 0px solid black;
+    padding: 0px;
+}
+#header{
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 0px;
+}
+.btn-icon{
+    font-size: 25px;
+    margin: 0px 5px 0px 90px;
+    cursor:pointer;
+}
+.vetrangchu{
+    font-size: 20px;
+    margin: 0px 7px 0px 0px;
+    cursor:pointer;
+}
+.logo-header img{
+    width: 150px;
+    height: 44px;
+    cursor:pointer;
+}
+.logo-header{
+    /* width: 150px;
+    height: 44px; */
+    width: auto;
+    margin: 0px 370px 0px 410px;
+}
+
+.login{
+    width: 133px;
+    height: 36px;
+    border: none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    cursor:pointer;
+    background-color: #f1632b;
+    margin: 0px 5px 0px 0px;
+}
+.register{
+    background-color: #f1632b;
+    border: none;
+    width:102px ;
+    height:36px ;
+    color: #fff;
+    font-weight: 500;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+    cursor:pointer;
+}
+.contentmid .saveacc a:hover{
+    cursor: pointer;
+    color: #f1632b;
+}
+.tieudelogin{
+    font-size: 30px;
+    padding-top: 20px;
+    margin: 0px 0px 0px 655px;
+}
+.divtong{
+    background-color: #dce5e8;
+    margin-top: 0px;
+}
+#contentmid{
+    margin: 20px 0px 0px 530px ;
+    text-align: center;
+    /* border: 5px solid black; */
+    width: 410.4px;
+    background-color: #fff;
+}
+.contentmid{
+    padding: 20px;
+    margin: 0px 0px 0px 0px ;
+
+}
+.btn-face{
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    margin: 0px 0px 20px 0px;
+    background-color:#1877F2 ;
+    color: aliceblue;
+    cursor: pointer;
+}
+.btn-gg{
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    margin: 0px 0px 20px 0px;
+    background-color: #dd4427;
+    color: aliceblue;
+    cursor: pointer;
+}
+.else{
+    /* text-decoration-line: underline; */
+    align-items: center;
+    text-align: center;
+    color: #757575;
+    font-style: italic;
+    margin: 0px 0px 20px 0px;
+
+}
+.content2{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0px 0px 20px 0px;
+
+}
+.inputlogin{
+    margin: 0px 0px 20px 0px;   
+}
+.passlogin{
+    margin: 0px 0px 20px 0px;   
+
+}
+.saveacc{
+    margin: 0px 0px 20px 0px;   
+
+}
+.sub{
+    margin: 0px 0px 20px 0px;   
+
+}
+.hoverdangky{
+    text-decoration: none;
+}
+.hoverdangky:hover{
+    text-decoration:  underline;
+}
+/* phan phụ đề dưới */
+.txt-footer{
+    font-size: 12px;
+    margin: 30px 300px 30px 140px;
+}
+.hoverlinknuochoa{
+    color: blue;
+    font-size: 12px;
+}
+.hoverlinknuochoa:hover{
+    color:aqua;
+}
+.list{
+    font-size: 22px;
+    color: blue;
+    margin: 30px 0px 5px 0px;
+}
+.hotline{
+    margin: 0px 0px 0px 133px;
+}
+.list2{
+    color: #cc0000;
+    font-size: 30px;
+    text-decoration: underline solid #cc0000;
+}

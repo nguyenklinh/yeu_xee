@@ -1,0 +1,406 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family:sans-serif;
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* html{
+    font-family: sans-serif;
+} */
+
+/* header */
+#header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div{
+    border: 0px solid #000000;
+    padding: 0px;
+}
+div.head{
+    margin: 0px 20px 0px 0px;
+}
+div#banoto{
+    margin-right: 500px;
+}
+div.flag{
+    margin: 0px 40px 0px 0px;
+}
+a{
+    text-decoration: none;
+}
+.tieude{
+    color:#fff;
+}
+.tieude:hover{
+    color: aqua;
+}
+/* headmid */
+#header_mid{
+    display: flex;
+    align-items: center;
+    background-color:#cc0000;
+}
+
+div.tindaluu{
+    margin: 0px 40px 0 0px;
+}
+div.xeyeuthich{
+    margin: 0px 60px 0 0px;
+}
+div.moigioi{
+    margin: 0px 60px 0 0px;
+}
+div.search{
+    margin: 10px 20em 10px 10em;
+    background:#fff;
+}
+div.search .search_text{
+    border: none;
+    outline:none;
+    background:none;
+    padding:10px 15px;
+}
+div.search .search_button{
+    background:#fff;
+    border: none;
+    cursor: pointer;
+    padding: 15px 15px;
+    
+}
+/* headmenu */
+#header_menu{
+    display: flex;
+    align-items: center;
+    font-size: large;
+    background-color: #7d9dab;
+    margin-bottom: 20px;
+}
+span.header_menu1{
+    margin: 0px 3em 0px 10em;
+}
+span.header_menu2{
+    margin: 0px 3em 0px 0;
+}
+span.header_menu3{
+    margin: 0px 3em 0px 0;
+}
+span.header_menu4{
+    margin: 0px 3em 0px 0;
+}
+span.header_menu5{
+    margin: 0px 3em 0px 0;
+}
+span.header_menu6{
+    margin: 0px 3em 0px 0;
+}
+span.header_menu7{
+    margin: 0px 3em 0px 0;
+}
+.btn-yl{
+    background-color: white;
+    border: 1px solid black;
+    width: 138px;
+    height: 33px;
+}
+.btn-yl:hover{
+    border: 1px solid orange;
+    color: orange;
+}
+.chitiet1{
+    margin: 0px 70px 0px 230px;
+    font-size: 17px;
+}
+.chitiet2{
+    margin: 0px 70px 0px 0px;
+    font-size: 17px;
+}
+.chitiet3{
+    margin: 0px 70px 0px 0px;
+    font-size: 17px;
+}
+.chitiet4{
+    margin: 0px 70px 0px 0px;
+    font-size: 17px;
+}
+.chitiet5{
+    margin: 0px 70px 0px 0px;
+    font-size: 17px;
+}
+#content-mid{
+    margin:20px 0px 20px 0px;
+    display: flex;
+}
+.formlaithu{
+    width:auto;
+    height:274.71px;
+    margin:20px 0px 0px 0px;
+    background-color: #7d9dab;
+}
+.slick{
+    margin: 0px 33px 0px 230px;
+}
+.img-center{
+    margin: 0px 40px 0px 0px;
+    width: 720px;
+    height: 480px;
+}
+.box-giaban{
+    width: 251.3px;
+    padding: 15px;
+    margin: 0px 0px 0px 0px;
+    border: 1px solid black;
+    background-color: #f5f5f5;
+    position: absolute;
+    left: 1140px;
+}
+p{
+    font-size: 17px;
+}
+li{
+    font-size: 16.5px;
+}
+.content{
+    margin: 0px 0px 0px 230px;
+}
+.chiase1{
+    margin: 0px 37px 0px 0px;
+}
+.chiase2{
+    margin: 0px 37px 0px 0px;
+}
+.chiase3{
+    margin: 0px 37px 0px 0px;
+}
+.chiase4{
+    margin: 0px 37px 0px 0px;
+}
+.formsanpham{
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+}
+.sanpham{
+    padding: 0px;
+    margin:10px 10px 10px 20px
+    
+}
+.thongtin{
+    margin: 10px -70px 10px 20px 
+}
+.giatien{
+    margin: 10px 0px 0px 140px;
+}
+.linksanpham{
+    color: #000000;
+}
+.linksanpham:hover{
+    color:#cc0000;
+}
+.btnsdt{
+    margin: 30px 0px 10px 0px;
+    /* background-color: white;
+    /* color: #fff; */
+    border: 1px solid white;
+}
+/* .hoveryeuthich{
+    color: #fff;
+}
+.hoverluutin{
+    color: white; 
+}*/
+.btnsdt:hover{
+    color: red;
+}
+.hoversanpham:hover{
+    background-color: yellow    ;
+    
+}
+    /* .hoverchum{
+        background-color:yellow;
+    } */
+.hoverchum:hover{
+    background-color:yellow;
+    color:red;
+}
+#sanpham{
+    border: 1px solid black;
+}
+.sanphamthem{
+    margin: 0px 0px 0px 230px;
+}
+.hoverdiachi{
+    color: blue;
+}
+.hoverdiachi:hover{
+    color: #cc0000;
+    text-decoration: solid;
+}
+.tinhthanh{
+    margin:20px 0px 0px 230px;
+}
+.diachi1{
+    margin: 0px 50px 20px 0px;
+}
+.diachi2{
+    margin: 0px 20px 20px 0px;
+}
+.diachi3{
+    margin: 0px 90px 20px 0px;
+}
+.diachi4{
+    margin: 0px 103px 20px 0px;
+}
+.tieudetrang{
+    background-color: #2b4560;
+    height: 300px;
+    margin: 50px 0px 30px 0px;
+}
+.title-whitle{
+    margin: 0px 0px 0px 650px;
+    font-size: 22px;
+    padding-top: 50px;
+    font-weight: bold;
+    color: #fff;
+}
+.txt-footer{
+    font-size: 12px;
+    margin: 0px 300px 30px 180px;
+}
+.hoverlinknuochoa{
+    color: blue;
+    font-size: 12px;
+}
+.hoverlinknuochoa:hover{
+    color:aqua;
+}
+.list{
+    font-size: 22px;
+    color: blue;
+    margin: 0px 0px 5px 0px;
+}
+.hotline{
+    margin: 0px 0px 0px 133px;
+}
+.list2{
+    color: #cc0000;
+    text-decoration:solid crimson ;
+    font-size: 30px;
+}
+/*--------------- phần dropdown----------------- */
+.header-menuu{
+    display: flex;
+}
+ul li{
+    list-style: none;
+
+}
+li .dropdown{
+    display: inline-block;
+
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    background-color: #7d9bad;
+    /* min-width: 135px; */
+    /* box-shadow: 0px 8px 16px 0px rgba(0,0,0,.2); */
+    z-index: 9;
+    left:0px;top:55px;
+    margin: 122px 0px 0px 250px;
+    padding-top: 35px;
+
+}
+/* .dropdown .dropdown-content a{
+    height:50px;
+} */
+.dropdown-content a{
+    padding:  16px;
+    text-decoration: none;
+    display: block;
+    /* text-align: left; */
+    color: black;
+
+}
+.dropdown-content a:hover{
+    color: #fff;
+    background-color: #f20c0c;
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+    color: #00ffff;
+}
+.droptbn{
+    display: block;
+    padding: 14px 16px;
+}
+/* -------------------------------------------------- */
+.hoveraloaioto{
+    color:#fff ;
+}
+.hoveraloaioto:hover{
+    color: #00ffff;
+}
+.li1{
+    margin: 0px 50px 0px 120px;
+    color: #fff;
+}
+
+.dropdown{
+    margin: 0px 60px 0px 0px;
+    color: #fff;
+
+}
+.li3{
+    margin: 0px 50px 0px 0px;
+    color: #fff;
+
+}
+.li4{
+    margin: 0px 50px 0px 0px;
+    color: #fff;
+
+}
+.li5{
+    margin: 0px 50px 0px 0px;
+    color: #fff;
+
+}
+.li6{
+    margin: 0px 50px 0px 0px;
+    color: #fff;
+
+}
+.li7{
+    margin: 0px 50px 0px 0px;
+    color: #fff;
+
+}
+.li1:hover{
+    color: #00ffff;
+}
+.li3:hover{
+    color: #00ffff;
+}
+.li4:hover{
+    color: #00ffff;
+}
+.li5:hover{
+    color: #00ffff;
+}
+.li6:hover{
+    color: #00ffff;
+}
+.li7:hover{
+    color: #00ffff;
+}
+.bor_red{
+    border: 1px solid red;
+}
